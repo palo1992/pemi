@@ -1,26 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { lazy, Suspense } from "react";
+import { Switch, Route } from "react-router-dom";
+import Header from "./components/header/header.component";
+import Footer from "./components/footer/footer.component";
+import HomePage from "./components/homepage/homepage.component";
+import "./App.css";
+import Spinner from "./components/spinner/spinner.component";
+// LAZY LOADING
+const ContactPage = lazy(() =>
+  import("./components/contactpage/contactpage.component")
+);
+const GalleryPage = lazy(() =>
+  import("./components/gallerypage/gallerypage.component")
+);
+const CategoryPage = lazy(() =>
+  import("./components/categorypage/categorypage.component")
+);
+const DetailPage = lazy(() =>
+  import("./components/detailpage/detailpage.component")
+);
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = ({ source }) => (
+  <div className="App">
+    <Header />
+    <Suspense fallback={<Spinner />}>
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/kontakt" component={ContactPage} />
+        <Route exact path="/moja_praca" component={GalleryPage} />
+        <Route exact path="/moja_praca/:category" component={CategoryPage} />
+        <Route path="/moja_praca/:src" component={DetailPage} />
+      </Switch>
+    </Suspense>
+    <Footer />
+  </div>
+);
 
 export default App;

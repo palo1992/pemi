@@ -20,7 +20,7 @@ const imgArray = [
     images: [
       {
         id: 1,
-        src: "/pemiassets/gallery/heating/radiator.jpg",
+        src: "/pemi/assets/gallery/heating/radiator.jpg",
         category: "heating",
       },
     ],

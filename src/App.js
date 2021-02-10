@@ -24,7 +24,7 @@ const App = ({ source }) => (
     <Header />
     <Suspense fallback={<Spinner />}>
       <Switch>
-        <Route exact path="/pemi" component={HomePage} />
+        <Route exact path="/pemi/" component={HomePage} />
         <Route exact path="/kontakt" component={ContactPage} />
         <Route exact path="/moja_praca" component={GalleryPage} />
         <Route exact path="/moja_praca/:category" component={CategoryPage} />

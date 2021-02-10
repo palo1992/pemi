@@ -1,7 +1,7 @@
 import { LogoContainer, LogoStyled } from "./logo.styles";
 
 const Logo = () => (
-  <LogoContainer to="/pemi">
+  <LogoContainer to="/pemi/">
     <LogoStyled />
   </LogoContainer>
 );

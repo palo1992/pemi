@@ -17,6 +17,9 @@ export const NavContainer = styled.div`
   }
   @media screen and (max-width:500px){
     flex-direction: row;
+    justify-content: center;
+    ${(props) => (props.primary ? `
+    align-items: unset;` : ``)}
   }
 `;
 export const NavLink = styled(Link)`

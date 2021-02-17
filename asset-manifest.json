@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pemi/static/css/main.88de4288.chunk.css",
-    "main.js": "/pemi/static/js/main.55887149.chunk.js",
-    "main.js.map": "/pemi/static/js/main.55887149.chunk.js.map",
+    "main.js": "/pemi/static/js/main.b864990b.chunk.js",
+    "main.js.map": "/pemi/static/js/main.b864990b.chunk.js.map",
     "runtime-main.js": "/pemi/static/js/runtime-main.902fcb74.js",
     "runtime-main.js.map": "/pemi/static/js/runtime-main.902fcb74.js.map",
     "static/js/2.d78f3fac.chunk.js": "/pemi/static/js/2.d78f3fac.chunk.js",
@@ -25,7 +25,7 @@
     "static/css/main.88de4288.chunk.css.map": "/pemi/static/css/main.88de4288.chunk.css.map",
     "static/js/2.d78f3fac.chunk.js.LICENSE.txt": "/pemi/static/js/2.d78f3fac.chunk.js.LICENSE.txt",
     "static/js/3.40bc6f31.chunk.js.LICENSE.txt": "/pemi/static/js/3.40bc6f31.chunk.js.LICENSE.txt",
-    "static/media/PEMI-ORIGIN.0fda8abb.png": "/pemi/static/media/PEMI-ORIGIN.0fda8abb.png",
+    "static/media/PEMI-ORIGIN.f0ff6b9f.png": "/pemi/static/media/PEMI-ORIGIN.f0ff6b9f.png",
     "static/media/contactPage-bg-img.8a956162.jpg": "/pemi/static/media/contactPage-bg-img.8a956162.jpg",
     "static/media/homePage-bg-img.1291ddcf.jpg": "/pemi/static/media/homePage-bg-img.1291ddcf.jpg"
   },
@@ -33,6 +33,6 @@
     "static/js/runtime-main.902fcb74.js",
     "static/js/2.d78f3fac.chunk.js",
     "static/css/main.88de4288.chunk.css",
-    "static/js/main.55887149.chunk.js"
+    "static/js/main.b864990b.chunk.js"
   ]
 }

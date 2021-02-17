@@ -3,7 +3,7 @@ import ContactPageBg from "../../assets/img/contactPage-bg-img.jpg";
 
 export const ContactPageContainer = styled.div`
   width: 100%;
-  height: 80vh;
+  min-height: calc(90vh - 6rem);
   display: flex;
   flex-direction: column;
   background-image: url(${ContactPageBg});
@@ -15,13 +15,13 @@ export const ContactPageContainer = styled.div`
 
 export const ContactCredentials = styled.div`
   p {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 600;
     letter-spacing: 2px;
     span {
-      font-size: 32px;
+      font-size: 3.2rem;
       font-weight: 600;
-      margin-right: 10px;
+      margin-right: 1rem;
     }
   }
 `;

@@ -2,8 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const DetailPageContainer = styled.div`
-  margin-top: 20px;
-  height: 70vh;
+  height: calc(90vh - 6rem);
   display: flex;
   justify-content: center;
 `;
@@ -23,11 +22,11 @@ export const BackButton = styled(Link)`
   color: black;
   text-align: center;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 700;
   position: absolute;
   top: 0;
   right: 0;
-  width: 2rem;
+  width: 4rem;
   background-color: rgba(250, 250, 250, 0.5);
 `;

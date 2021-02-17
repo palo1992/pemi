@@ -23,6 +23,7 @@ const App = ({ source }) => (
   <div className="App">
     <Header />
     <Suspense fallback={<Spinner />}>
+        <div id="splitter">
       <Switch>
         <Route exact path="/pemi/" component={HomePage} />
         <Route exact path="/kontakt" component={ContactPage} />
@@ -30,6 +31,7 @@ const App = ({ source }) => (
         <Route exact path="/moja_praca/:category" component={CategoryPage} />
         <Route path="/moja_praca/:src" component={DetailPage} />
       </Switch>
+        </div>
     </Suspense>
     <Footer />
   </div>

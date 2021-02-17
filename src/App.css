@@ -4,3 +4,18 @@
     position: relative;
     display: block;
 }
+#splitter {
+    padding-bottom: 6rem;
+}
+h2 {
+    font-weight: 500;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 3.2rem;
+}
+li {
+    font-size: 1.6rem;
+}

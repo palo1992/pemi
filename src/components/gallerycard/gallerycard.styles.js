@@ -2,16 +2,13 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const GalleryCardContainer = styled.div`
+  height: 27rem;
+  width: 30%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 45%;
-  width: 30%;
   margin: 15px;
-  h2 {
-    text-transform: uppercase;
-    font-weight: 500;
-  }
+
   position: relative;
 `;
 
@@ -34,7 +31,7 @@ export const LinkStyled = styled(Link)`
   display: inline-block;
   text-decoration: none;
   color: white;
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: 600;
   width: 100%;
   background-color: rgba(19, 60, 150, 0.8);

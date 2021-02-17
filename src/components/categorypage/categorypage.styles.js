@@ -4,15 +4,12 @@ import { Link } from "react-router-dom";
 export const CategoryPageContainer = styled.div`
   display: flex;
   flex-direction: column;
-  width: 100vw;
-  height: 80vh;
+  width: 95vw;
+  min-height: calc(90vh - 6rem);
   margin: 0 auto;
   h2 {
-    justify-self: center;
+    font-size: 3rem;
     text-align: center;
-    text-transform: uppercase;
-    font-size: 2rem;
-    font-weight: 500;
   }
   position: relative;
 `;
@@ -22,14 +19,14 @@ export const CategoryCardsContainer = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   height: 100%;
-  width: 90%;
-  margin: 10px auto;
+  width: 100%;
+  justify-content: center;
 `;
 
 export const Card = styled(Link)`
   display: block;
   width: 30%;
-  height: 45%;
+  height: 27rem;
   margin: 10px;  }
 `;
 export const CardBg = styled.div`
@@ -40,8 +37,8 @@ export const CardBg = styled.div`
   background-size: cover;
   background-position: center;
   transition: all 0.5s;
-    :hover {
+  :hover {
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.8);
     transform: scale(1.1);
-  }  
+  }
 `;

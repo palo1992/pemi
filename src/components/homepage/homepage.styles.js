@@ -6,7 +6,7 @@ export const HomepageContainer = styled.div`
   align-content: center;
   justify-content: center;
   min-height: calc(90vh - 6rem);
-  width: 100vw;
+  width: 100%;
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.8)

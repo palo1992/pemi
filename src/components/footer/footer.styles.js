@@ -3,7 +3,7 @@ import PHlogo from "../../assets/logo/PH_HP-logo.png";
 
 export const FooterContainer = styled.div`
   height: 6rem;
-  width: 100vw;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(3, max-content);
   grid-template-rows: 100%;
@@ -30,12 +30,12 @@ export const FooterContainer = styled.div`
       grid-template-columns: repeat(2, max-content);
     }
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1120px) {
     p {
       display: none;
     }
   }
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 800px) {
     grid-template-columns: repeat(2, max-content);
     ul {
       display: none;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 export const GalleryPageContainer = styled.div`
-  width: 100vw;
+  width: 100%;
   min-height: calc(90vh - 6rem);
   display: flex;
   flex-wrap: wrap;

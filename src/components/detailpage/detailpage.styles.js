@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const DetailPageContainer = styled.div`
   height: calc(90vh - 6rem);
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
 `;

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const CategoryPageContainer = styled.div`
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
   min-height: calc(90vh - 6rem);
   margin: 0 auto;
   h2 {

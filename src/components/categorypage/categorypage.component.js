@@ -17,7 +17,7 @@ const CategoryPage = ({ match }) => {
         <CategoryCardsContainer>
         {filteredArray.map((pictures) => {
           return pictures.images.map(sources => (
-            <Card to={`/moja_praca${sources.src}`} key={sources.id}>
+            <Card to={`/pemi/moja_praca${sources.src}`} key={sources.id}>
               <CardBg key={sources.id} src={sources.src} />
             </Card>
           ));

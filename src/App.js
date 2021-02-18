@@ -19,17 +19,17 @@ const DetailPage = lazy(() =>
   import("./components/detailpage/detailpage.component")
 );
 
-const App = ({ source }) => (
+const App = () => (
   <div className="App">
     <Header />
     <Suspense fallback={<Spinner />}>
         <div id="splitter">
       <Switch>
         <Route exact path="/pemi/" component={HomePage} />
-        <Route exact path="/kontakt" component={ContactPage} />
-        <Route exact path="/moja_praca" component={GalleryPage} />
-        <Route exact path="/moja_praca/:category" component={CategoryPage} />
-        <Route path="/moja_praca/:src" component={DetailPage} />
+        <Route exact path="/pemi/kontakt" component={ContactPage} />
+        <Route exact path="/pemi/moja_praca" component={GalleryPage} />
+        <Route exact path="/pemi/moja_praca/:category" component={CategoryPage} />
+        <Route path="/pemi/moja_praca/pemi/:src" component={DetailPage} />
       </Switch>
         </div>
     </Suspense>

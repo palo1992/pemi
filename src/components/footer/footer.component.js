@@ -1,5 +1,4 @@
 import { FooterContainer, Mark } from "./footer.styles";
-//import Logo from "../logo/logo.component";
 import Nav from "../navigation/navigation.component";
 
 const Footer = () => (

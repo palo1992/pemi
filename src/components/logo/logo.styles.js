@@ -14,6 +14,7 @@ export const LogoStyled = styled.img.attrs(()=> ({
 }))`
 display: block;
 height: 100%;
+width: auto;
 @media screen and (max-width: 500px) {
   position: relative;
   margin: 0 auto;

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pemi/static/css/main.88de4288.chunk.css",
-    "main.js": "/pemi/static/js/main.ebeda4a7.chunk.js",
-    "main.js.map": "/pemi/static/js/main.ebeda4a7.chunk.js.map",
+    "main.js": "/pemi/static/js/main.36d7612f.chunk.js",
+    "main.js.map": "/pemi/static/js/main.36d7612f.chunk.js.map",
     "runtime-main.js": "/pemi/static/js/runtime-main.51ad3d4c.js",
     "runtime-main.js.map": "/pemi/static/js/runtime-main.51ad3d4c.js.map",
     "static/js/2.d78f3fac.chunk.js": "/pemi/static/js/2.d78f3fac.chunk.js",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.51ad3d4c.js",
     "static/js/2.d78f3fac.chunk.js",
     "static/css/main.88de4288.chunk.css",
-    "static/js/main.ebeda4a7.chunk.js"
+    "static/js/main.36d7612f.chunk.js"
   ]
 }

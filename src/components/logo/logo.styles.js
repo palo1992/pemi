@@ -9,7 +9,8 @@ padding: 5px;
 `;
 
 export const LogoStyled = styled.img.attrs(()=> ({
-  src: logo
+  src: logo,
+  alt: 'logo'
 }))`
 display: block;
 height: 100%;

@@ -3,17 +3,18 @@ import { Link } from "react-router-dom";
 
 export const DetailPageContainer = styled.div`
   height: calc(90vh - 6rem);
+  width: 100vw;
   display: flex;
   justify-content: center;
 `;
 
 export const DetailPicture = styled.div`
-  height: 100%;
   position: relative;
-
   img {
     display: block;
+    width: 100%;
     height: 100%;
+    object-fit: cover;
   }
 `;
 

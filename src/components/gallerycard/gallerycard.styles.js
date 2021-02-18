@@ -8,8 +8,10 @@ export const GalleryCardContainer = styled.div`
   flex-direction: column;
   align-items: center;
   margin: 15px;
-
   position: relative;
+  @media screen and (max-width:800px){
+    width: 90%;
+    height: 450px;
 `;
 
 export const GalleryCardBg = styled.div`

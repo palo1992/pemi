@@ -2,7 +2,7 @@ import styled from "styled-components";
 import ContactPageBg from "../../assets/img/contactPage-bg-img.jpg";
 
 export const ContactPageContainer = styled.div`
-  width: 100%;
+  width: 100vw;
   min-height: calc(90vh - 6rem);
   display: flex;
   flex-direction: column;
@@ -25,3 +25,6 @@ export const ContactCredentials = styled.div`
     }
   }
 `;
+
+export const Container = styled.div`
+width:90%`;

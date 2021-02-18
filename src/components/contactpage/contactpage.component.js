@@ -1,6 +1,5 @@
-import { ContactPageContainer, ContactCredentials } from "./contactpage.styles";
+import { ContactPageContainer, ContactCredentials, Container } from "./contactpage.styles";
 import MapContainer from "../googlemap/googlemap.component";
- 
 
 const ContactPage = () => (
   <ContactPageContainer>
@@ -12,7 +11,9 @@ const ContactPage = () => (
         <span>Telefón:</span>0903 914 821
       </p>
     </ContactCredentials>
-    <MapContainer />
+    <Container>
+      <MapContainer />
+    </Container>
   </ContactPageContainer>
 );
 

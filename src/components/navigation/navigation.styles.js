@@ -2,20 +2,21 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const NavContainer = styled.div`
+
   background-color: ${(props) => (props.primary ?  `rgba(164, 32, 32, 0.7)
   ` : "transparent")};
   color: ${props => props.primary ? "white" : "black"};
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   font-size: 2rem;
-  @media screen and (max-width:800px){
+  @media screen and (max-width:980px){
     ${(props) => (props.primary ? `
-    flex-direction: row;` : `flex-direction: column;   justify-content: center;
+    flex-direction: column; text-align: center;` : `flex-direction: column;   justify-content: center;
     `)}
   }
   @media screen and (max-width:500px){
+    width: 100%;
     flex-direction: row;
     justify-content: center;
     ${(props) => (props.primary ? `
@@ -27,7 +28,7 @@ export const NavLink = styled(Link)`
   padding: 10px 15px;
   cursor: pointer;
   text-decoration: none;
-  @media screen and (max-width:800px){
+  @media screen and (max-width:980px){
     ${(props) => (props.primary ? `
     padding: 10px 15px;` : `padding: 0;`)}
   }

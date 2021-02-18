@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const CategoryPageContainer = styled.div`
   display: flex;
   flex-direction: column;
-  width: 95vw;
+  width: 100vw;
   min-height: calc(90vh - 6rem);
   margin: 0 auto;
   h2 {
@@ -27,7 +27,13 @@ export const Card = styled(Link)`
   display: block;
   width: 30%;
   height: 27rem;
-  margin: 10px;  }
+  margin: 10px;
+  @media screen and (max-width: 980px) {
+    width: 40%;
+  }
+  @media screen and (max-width: 500px) {
+    width: 100%;
+  }
 `;
 export const CardBg = styled.div`
   width: 100%;

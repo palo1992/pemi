@@ -4,7 +4,7 @@ import logo from "../../assets/logo/PEMI-ORIGIN.png";
 
 export const LogoContainer = styled(Link)`
 display: block;
-height: 100%;
+height: 10vh;
 padding: 5px;
 `;
 

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const MapStyled = styled.div`
-  width: 144rem;
+  width: 100%;
   height: 40rem;
   position: relative;
 `;
